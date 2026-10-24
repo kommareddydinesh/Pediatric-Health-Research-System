@@ -1,29 +1,36 @@
 # 🧸 Pediatric Health Research System
 
-### Understanding the Impact of Maternal Education on Child Health Outcomes
+### Exploring the Relationship Between Maternal Education and Child Health Outcomes
 
-A full-stack health research application designed to analyze, visualize, and explore the relationship between **maternal education and pediatric health outcomes**. The platform provides interactive analytics, health score calculations, and research insights through a modern, medical-inspired dashboard.
+A full-stack healthcare research application designed to analyze and visualize pediatric health indicators through an interactive analytics dashboard. The system explores potential associations between maternal education and child health outcomes using vaccination, nutrition, hygiene, and illness-related indicators.
 
-\<p align="center">
-&#x20; \<img src="[https://img.shields.io/badge/React-Vite-61DAFB?style=for-the-badge&logo=react&logoColor=white](https://img.shields.io/badge/React-Vite-61DAFB?style=for-the-badge\&logo=react\&logoColor=white)" alt="React and Vite" />
-&#x20; \<img src="[https://img.shields.io/badge/Node.js-Express-339933?style=for-the-badge&logo=nodedotjs&logoColor=white](https://img.shields.io/badge/Node.js-Express-339933?style=for-the-badge\&logo=nodedotjs\&logoColor=white)" alt="Node.js and Express" />
-&#x20; \<img src="[https://img.shields.io/badge/MongoDB-Database-47A248?style=for-the-badge&logo=mongodb&logoColor=white](https://img.shields.io/badge/MongoDB-Database-47A248?style=for-the-badge\&logo=mongodb\&logoColor=white)" alt="MongoDB" />
-&#x20; \<img src="[https://img.shields.io/badge/Tailwind_CSS-Styling-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white](https://img.shields.io/badge/Tailwind_CSS-Styling-06B6D4?style=for-the-badge\&logo=tailwindcss\&logoColor=white)" alt="Tailwind CSS" />
-\</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" />
+  <img src="https://img.shields.io/badge/Vite-Build_Tool-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
+  <img src="https://img.shields.io/badge/Node.js-Backend-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/Express.js-API-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express.js" />
+  <img src="https://img.shields.io/badge/MongoDB-Database-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
+</p>
+
+<p align="center">
+  <strong>Research · Analytics · Visualization · Healthcare Data</strong>
+</p>
 
 ---
 
-## 📑 Table of Contents
+## 📌 Table of Contents
 
 - [Overview](#-overview)
+- [Project Objectives](#-project-objectives)
 - [Key Features](#-key-features)
 - [Technology Stack](#-technology-stack)
 - [System Architecture](#-system-architecture)
+- [Project Structure](#-project-structure)
 - [Prerequisites](#-prerequisites)
 - [Installation and Setup](#-installation-and-setup)
-- [Usage Guide](#-usage-guide)
+- [Application Workflow](#-application-workflow)
 - [Health Score Calculation](#-health-score-calculation)
-- [Security Considerations](#-security-considerations)
+- [Security and Privacy](#-security-and-privacy)
 - [Future Enhancements](#-future-enhancements)
 - [Disclaimer](#-disclaimer)
 
@@ -31,36 +38,40 @@ A full-stack health research application designed to analyze, visualize, and exp
 
 ## 🌟 Overview
 
-The **Pediatric Health Research System** is a web-based research platform developed to support the exploration of pediatric health indicators and their potential relationship with maternal education.
+The **Pediatric Health Research System** is a web-based application that provides a centralized platform for exploring pediatric health data and its potential relationship with maternal education.
 
-The application brings together child health records, vaccination information, nutrition indicators, hygiene factors, and illness tracking in one centralized interface.
+By combining data management with interactive visualizations, the application helps users examine patterns across different health indicators and educational categories.
 
-Through interactive charts and analytical dashboards, researchers can explore patterns in the available dataset and better understand potential associations between maternal education and child health outcomes.
+The system is built with a React-based frontend, a Node.js and Express backend, and MongoDB for data storage.
 
 ### 🎯 Project Objectives
 
-- Analyze the relationship between maternal education and child health indicators.
-- Visualize vaccination coverage, nutrition, hygiene, and illness frequency.
-- Calculate a consolidated pediatric health score.
-- Provide a centralized interface for managing research records.
-- Generate interactive insights to support exploratory health research.
+- Investigate potential relationships between maternal education and child health outcomes.
+- Visualize vaccination coverage and other pediatric health indicators.
+- Examine nutrition, hygiene, and illness-related data.
+- Calculate a consolidated health score using configured indicators.
+- Provide a dashboard for exploring and managing research records.
+- Support exploratory analysis through interactive charts and metrics.
 
 ---
 
 ## ✨ Key Features
 
-| Feature                        | Description                                                                         |
-| ------------------------------ | ----------------------------------------------------------------------------------- |
-| 📊 Interactive Analytics       | Visualize pediatric health indicators through interactive charts and graphs.        |
-| 🎓 Maternal Education Analysis | Explore potential relationships between education levels and child health outcomes. |
-| 💉 Vaccination Tracking        | Analyze vaccination information and coverage in the research dataset.               |
-| 🥗 Nutrition Monitoring        | Examine nutrition-related indicators recorded for pediatric research.               |
-| 🧼 Hygiene Assessment          | Include hygiene indicators in the overall health assessment.                        |
-| 🩺 Illness Tracking            | Explore recorded illness frequency and related health patterns.                     |
-| 💯 Health Score Calculation    | Generate a score on a 0–100 scale using configured health indicators.               |
-| 📝 Record Management           | Add pediatric research records and refresh dashboard insights.                      |
-| 🔐 Authentication              | Support authenticated access using JSON Web Tokens and password hashing.            |
-| 🎨 Modern User Interface       | Deliver a clean, responsive interface with a medical-inspired visual design.        |
+| Feature | Description |
+|---|---|
+| 📊 Interactive Dashboard | Visualize research data through charts, graphs, and summary metrics. |
+| 🎓 Maternal Education Analysis | Explore potential associations between education categories and child health indicators. |
+| 💉 Vaccination Analysis | Examine vaccination records and coverage patterns. |
+| 🥗 Nutrition Indicators | Explore nutrition-related information in the dataset. |
+| 🧼 Hygiene Indicators | Include hygiene-related factors in health analysis. |
+| 🩺 Illness Tracking | Examine recorded illness frequency and distribution. |
+| 💯 Health Score | Calculate a score on a 0–100 scale using configured indicators. |
+| 📝 Research Record Management | Add and manage pediatric research records through the interface. |
+| 🔐 Authentication | Support token-based authentication and password hashing. |
+| 📈 Data Visualization | Present research insights using interactive charts. |
+| 🎨 Modern Interface | Provide a clean, medical-inspired user experience. |
+
+*Feature availability depends on the implementation and API endpoints in the current version.*
 
 ---
 
@@ -68,135 +79,172 @@ Through interactive charts and analytical dashboards, researchers can explore pa
 
 ### Frontend
 
-- **React.js** — Component-based user interface
-- **Vite** — Development server and build tooling
-- **Tailwind CSS** — Utility-first styling
-- **Recharts** — Data visualization and analytics
-- **Axios** — HTTP requests to the backend API
-- **React Router** — Client-side navigation
-- **Lucide React** — Consistent interface icons
+| Technology | Purpose |
+|---|---|
+| React.js | User interface and reusable components |
+| Vite | Development server and build tooling |
+| Tailwind CSS | Interface styling |
+| Recharts | Interactive data visualization |
+| Axios | HTTP communication with the backend |
+| React Router | Client-side navigation |
+| Lucide React | Interface icons |
 
 ### Backend
 
-- **Node.js** — JavaScript runtime
-- **Express.js** — REST API and server-side routing
-- **MongoDB** — Document-oriented database
-- **Mongoose** — MongoDB object modeling
-- **JSON Web Token (JWT)** — Token-based authentication
-- **bcrypt.js** — Password hashing
+| Technology | Purpose |
+|---|---|
+| Node.js | JavaScript runtime |
+| Express.js | Backend server and REST API |
+| MongoDB | Document-oriented database |
+| Mongoose | MongoDB object modeling |
+| JSON Web Token (JWT) | Token-based authentication |
+| bcrypt.js | Password hashing |
 
 ---
 
 ## 🏗️ System Architecture
 
-The application follows a client-server architecture with a React frontend, an Express backend, and MongoDB for data persistence.
+The application uses a client-server architecture to connect the user interface, backend API, and database.
 
 ```mermaid
 flowchart TD
-    A[Researcher / Administrator] --> B[React Frontend]
-    B --> C[Vite Development Server]
-    B --> D[Axios HTTP Client]
-    D --> E[Express REST API]
-    E --> F[JWT Authentication]
-    E --> G[Mongoose ODM]
-    G --> H[(MongoDB Database)]
-    E --> I[Health Score Logic]
-    H --> J[Research Records]
-    I --> K[Analytics and Aggregation]
+    A["Researcher / Administrator"] --> B["React Frontend"]
+    B --> C["Axios HTTP Client"]
+    C --> D["Express.js REST API"]
+    D --> E["Authentication Middleware"]
+    D --> F["Application Logic"]
+    F --> G["Mongoose ODM"]
+    G --> H[("MongoDB Database")]
+    F --> I["Health Score Calculation"]
+    H --> J["Research Records"]
+    I --> K["Analytics and Aggregation"]
     J --> K
-    K --> E
-    E --> B
-    B --> L[Interactive Recharts Dashboard]
+    K --> D
+    D --> B
+    B --> L["Recharts Dashboard"]
 ```
 
-### Data Flow
+### 🔄 Data Flow
 
-1. The researcher interacts with the React interface.
-2. Axios sends requests to the Express backend.
-3. The backend processes requests and validates authentication where required.
-4. Mongoose communicates with MongoDB to retrieve or update research records.
-5. Health score logic and analytics process the available data.
-6. The frontend displays the resulting information through charts, metrics, and dashboard components.
+1. The user interacts with the React frontend.
+2. Axios sends requests to the backend API.
+3. The Express server processes requests and applies authentication checks where configured.
+4. Mongoose retrieves or updates data in MongoDB.
+5. Application logic processes the available health indicators.
+6. Analytics results are returned to the frontend.
+7. The dashboard presents the data through charts and summary metrics.
+
+---
+
+## 📂 Project Structure
+
+The project is expected to follow a structure similar to the one below. Adjust the names to match your actual repository.
+
+```text
+Pediatric-Health-Research-System/
+│
+├── frontend/
+│   ├── public/
+│   ├── src/
+│   ├── package.json
+│   └── vite.config.js
+│
+├── backend/
+│   ├── models/
+│   ├── routes/
+│   ├── middleware/
+│   ├── server.js
+│   ├── seed.js
+│   └── package.json
+│
+├── .gitignore
+└── README.md
+```
+
+The presence and names of individual directories depend on the actual implementation.
 
 ---
 
 ## 📋 Prerequisites
 
-Ensure the following software is installed before running the application.
+Install the following before running the application locally.
 
-| Requirement | Version / Configuration                |
-| ----------- | -------------------------------------- |
-| Node.js     | v18 or later                           |
-| npm         | Included with Node.js                  |
-| MongoDB     | Local instance running on port `27017` |
-| Web browser | Any modern browser                     |
-| Git         | Recommended for version control        |
+| Requirement | Version / Configuration |
+|---|---|
+| Node.js | v18 or later |
+| npm | Installed with Node.js |
+| MongoDB | Local instance on port `27017` |
+| Git | Recommended |
+| Web browser | Any modern browser |
 
-Verify your installations:
+Verify Node.js and npm:
 
 ```bash
 node --version
 npm --version
 ```
 
-Verify that MongoDB is running before starting the backend.
+Ensure MongoDB is running before starting the backend.
 
 ---
 
 ## 🚀 Installation and Setup
 
-Follow these steps to run the application locally.
-
 ### 1. Clone the Repository
 
-If the project is hosted on GitHub, clone it and navigate to its directory.
-
 ```bash
-git clone <YOUR_REPOSITORY_URL>
-cd <YOUR_PROJECT_FOLDER>
-```
+git clone https://github.com/kommareddydinesh/Pediatric-Health-Research-System.git
 
-Replace the placeholders with your actual repository URL and project folder name.
+cd Pediatric-Health-Research-System
+```
 
 ### 2. Configure the Backend
 
-Open a terminal in the project root and navigate to the backend directory.
+Open a terminal in the project directory:
 
 ```bash
 cd backend
 npm install
 ```
 
-#### Seed the Research Dataset
+Configure the MongoDB connection and other required environment variables according to your backend configuration.
 
-Run the seed script to create an administrator account and populate sample pediatric research records.
+If your project uses a `.env` file, create one locally and use the variable names expected by your source code. Never commit actual secrets.
+
+### 3. Seed Sample Research Data
+
+If `seed.js` is included in your repository, run:
 
 ```bash
 node seed.js
 ```
 
-**Development seed credentials**
+This script is intended to create an administrator account and populate sample pediatric research records, according to its implementation.
 
-| Field    | Value                    |
-| -------- | ------------------------ |
-| Email    | `admin@greennetspark.in` |
-| Password | `Admin@123`              |
+**Development credentials**
 
-These credentials are intended for local development only. Change them before any deployment, and never use seeded sample records as real clinical data.
+If the seed script retains its default credentials:
 
-#### Start the Backend Server
+| Field | Value |
+|---|---|
+| Email | `admin@greennetspark.in` |
+| Password | `Admin@123` |
+
+These are development-only credentials. Verify the actual values in `seed.js`, and replace default credentials before deployment. Do not use them for a publicly accessible application.
+
+### 4. Start the Backend Server
 
 ```bash
 node server.js
 ```
 
-Keep this terminal open while using the application.
+Keep this terminal running.
 
-> **Note:** The backend port and database connection settings depend on your `server.js` and configuration files. Ensure they match your local environment.
+Confirm that the server connects to MongoDB successfully and listens on the configured port.
 
-### 3. Configure the Frontend
+### 5. Configure the Frontend
 
-Open a second terminal from the project root.
+Open a second terminal from the project root:
 
 ```bash
 cd frontend
@@ -204,100 +252,114 @@ npm install
 npm run dev
 ```
 
-Vite will display the local development URL in the terminal. It is typically:
+Vite will display the frontend URL in the terminal. The default is usually:
 
-**[http://localhost:5173](http://localhost:5173)**
+http://localhost:5173
 
-### 4. Launch the Application
+If your backend requires a frontend API URL, configure it using the environment variable expected by your application.
 
-1. Confirm that MongoDB is running.
+### 6. Launch the Application
+
+1. Start MongoDB.
 2. Start the backend server.
 3. Start the frontend development server.
-4. Open the displayed frontend URL in your browser.
-5. Sign in using the development credentials created by `seed.js`.
+4. Open the displayed frontend URL.
+5. Sign in using the credentials created by the seed script, if authentication is implemented.
 6. Explore the dashboard and available research records.
 
 ---
 
-## 📈 Usage Guide
+## 📈 Application Workflow
 
-Once the application is running, you can use the available features to explore the sample research dataset.
+The intended research workflow is:
 
-### Research Workflow
+**Access Dashboard → Explore Health Indicators → Analyze Patterns → Review Health Scores → Manage Records**
 
-- **Access the dashboard:** Review the available pediatric health indicators.
-- **Explore education patterns:** Compare maternal education categories with recorded child health outcomes.
-- **Review vaccinations:** Examine vaccination information and coverage.
-- **Analyze illness frequency:** Explore the distribution of recorded illnesses.
-- **Inspect health scores:** Review calculated scores and their contributing indicators.
-- **Add research records:** Enter new records using the application's available forms.
-- **Review updated insights:** Check the dashboard for refreshed results after data changes.
+Users can explore the available dashboard metrics, examine vaccination and illness-related patterns, compare health indicators across maternal education categories, and review the results of configured health score calculations.
 
-> Available functionality depends on the components and API endpoints implemented in your current version.
+Actual workflows depend on the features implemented in the current application.
 
 ---
 
 ## 💯 Health Score Calculation
 
-The system is designed to calculate a pediatric health score on a scale of **0 to 100**, using configured indicators such as:
+The application is designed to calculate a pediatric health score ranging from **0 to 100**, using configured indicators such as:
 
 - Vaccination status
-- Nutrition indicators
-- Hygiene indicators
+- Nutrition
+- Hygiene
 - Illness or disease history
 
-A higher score represents a more favorable result under the application's configured scoring rules.
+A higher score represents a more favorable result according to the application's configured scoring rules.
 
-**Important:** The exact formula, indicator weights, missing-data handling, and score interpretation must be verified against the implementation in your source code. This score is a research metric and should not be treated as a validated clinical assessment or a diagnosis.
+**Research limitation:** The exact scoring formula, indicator weights, missing-data treatment, and interpretation must be verified in the source code. This score is an application-specific research metric, not a validated clinical assessment or diagnostic tool.
 
 ---
 
-## 🔐 Security Considerations
+## 🔐 Security and Privacy
 
-Because this application handles pediatric and health-related information, security and privacy should be treated as core requirements.
+Security is particularly important when working with pediatric and health-related information.
 
-- Store passwords using bcrypt hashing rather than plaintext.
-- Protect private API routes with appropriate authentication and authorization checks.
-- Store secrets and database credentials in environment variables.
-- Add a `.env` file to `.gitignore` and commit only a safe `.env.example`.
+Recommended practices:
+
+- Store passwords using bcrypt hashing.
+- Protect private API routes with authentication and authorization.
+- Store database credentials, JWT secrets, and other sensitive configuration in environment variables.
+- Add `.env` and other secret-bearing files to `.gitignore`.
+- Commit a sanitized `.env.example` when configuration documentation is useful.
+- Never publish real patient records or personally identifiable health information.
+- Use synthetic or properly anonymized research data for demonstrations.
+- Validate incoming API requests and configure appropriate CORS policies.
 - Replace development credentials before deployment.
-- Configure appropriate CORS policies and validate incoming API data.
-- Avoid exposing identifiable pediatric information in logs or public dashboards.
-- Use anonymized or synthetic records for demonstrations and testing.
-- Apply appropriate access controls, backups, and data-retention practices before using real research data.
+- Use HTTPS and appropriate access controls for deployed environments.
 
-Never publish real children's health information or production credentials in a public repository.
+**Important:** A `.gitignore` file does not remove secrets that have already been committed. If an actual secret was exposed, rotate it and review the repository history.
 
 ---
 
 ## 🔮 Future Enhancements
 
-Potential improvements for future versions include:
+Potential enhancements include:
 
-- [ ] Advanced filtering by maternal education level and health indicator.
+- [ ] Advanced filtering by maternal education and health indicators.
 - [ ] Exportable research reports in PDF and CSV formats.
 - [ ] Date-based trends and comparative analytics.
-- [ ] Improved role-based access control for researchers and administrators.
-- [ ] Data validation and duplicate-record detection.
+- [ ] Role-based access control for researchers and administrators.
+- [ ] Improved data validation and duplicate detection.
 - [ ] Research dataset import and export.
-- [ ] Statistical analysis and confidence intervals for group comparisons.
-- [ ] Accessibility improvements and enhanced mobile responsiveness.
-- [ ] Automated testing and deployment workflows.
+- [ ] Statistical analysis with confidence intervals.
+- [ ] Responsive design and accessibility improvements.
+- [ ] Automated testing and continuous integration.
+- [ ] Deployment with secure environment configuration.
 
 ---
 
 ## ⚕️ Disclaimer
 
-This project is intended for **educational, research, and data-visualization purposes**. Any sample data generated by the seeding script is synthetic and must not be interpreted as actual patient information.
+This project is intended for **educational, research, and data-visualization purposes**.
 
-The displayed health scores and analytics are not substitutes for professional medical advice, clinical evaluation, or validated pediatric screening tools. Associations observed in research data do not establish causation.
+Sample data should not be interpreted as actual patient information. The displayed scores and visualizations do not replace professional medical advice, clinical evaluation, or validated pediatric screening tools.
+
+Observed relationships in research data do not establish causation. Any conclusions should be interpreted in the context of the dataset, study design, data quality, and appropriate statistical analysis.
 
 ---
 
-## 👨‍💻 Development
+## 👨‍💻 Author
 
-Contributions and improvements are welcome. Before submitting changes, test the frontend and backend locally and ensure that no sensitive information or credentials are included.
+**K. Dinesh Raj Pal Reddy**
 
-**Built with React, Node.js, MongoDB, and a focus on pediatric health research.**
+GitHub: [@kommareddydinesh](https://github.com/kommareddydinesh)
 
-⭐ If you find this project useful, consider giving the repository a star on GitHub.
+Project: [Pediatric Health Research System](https://github.com/kommareddydinesh/Pediatric-Health-Research-System)
+
+---
+
+<p align="center">
+  <strong>Built with React, Node.js, Express.js, and MongoDB.</strong>
+  <br />
+  Exploring pediatric health data through technology and research.
+</p>
+
+<p align="center">
+  ⭐ If you find this project useful, consider starring the repository.
+</p>
