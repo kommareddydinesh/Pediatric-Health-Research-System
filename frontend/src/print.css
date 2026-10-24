@@ -1,0 +1,28 @@
+@media print {
+  body {
+    background: white;
+    color: black;
+  }
+  body::before {
+    display: none;
+  }
+  .navbar, .no-print {
+    display: none !important;
+  }
+  .app-container {
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+  }
+  .glass-card, .print-container {
+    box-shadow: none !important;
+    border: none !important;
+    background: white !important;
+    margin: 0;
+    padding: 0;
+  }
+  .print-container {
+    padding: 0 !important;
+    max-width: 100% !important;
+  }
+}
